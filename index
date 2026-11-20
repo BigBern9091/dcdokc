@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Davis Law Group: criminal defense in Oklahoma City</title>
+<meta name="description" content="D. Casey Davis, a former Oklahoma Assistant Attorney General, defends people charged with DUI, drug, assault, theft and probation cases. The first consultation is free.">
+<link rel="canonical" href="https://dcdokc.com/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://dcdokc.com/">
+<meta property="og:title" content="Davis Law Group, criminal defense in Oklahoma City">
+<meta property="og:description" content="Former Assistant Attorney General, now on the defense side. First consultation free.">
+<meta property="og:image" content="share.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#8e2424">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/img/lawyer-2000.jpg" imagesrcset="assets/img/lawyer-1400.jpg 1400w, assets/img/lawyer-2000.jpg 2000w" imagesizes="100vw">
+<style>
+:root{
+  --ox:#8e2424; --ox-deep:#6e1a1a; --ox-lit:#d65a4f;
+  --paper:#f2f0f0; --stone:#e7e2dc; --ink:#141312; --ink-2:#1e1c1a; --muted:#6b645e; --rule:#d3ccc5;
+  --sign:"Big Shoulders Display",Impact,"Arial Narrow",sans-serif;
+  --serif:"Source Serif 4",Georgia,serif;
+  --g:clamp(16px,4vw,56px);
+  --ease:cubic-bezier(.2,.7,.1,1);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 18px/1.6 var(--serif);overflow-x:hidden}
+img,video{display:block;max-width:100%}
+a{color:inherit}
+h1,h2,h3,p,figure,ul,ol,dl,dd{margin:0}
+ul,ol{padding:0;list-style:none}
+.skip{position:absolute;left:-999px;top:8px;z-index:100;background:var(--ink);color:var(--paper);padding:8px 12px}
+.skip:focus{left:8px}
+:focus-visible{outline:2px solid var(--ox);outline-offset:3px}
+em{font-style:italic}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5em;font:700 15px/1 var(--sign);letter-spacing:.08em;text-transform:uppercase;text-decoration:none;padding:14px 20px;border-radius:2px;border:0;cursor:pointer;transition:background .25s,color .25s,transform .25s var(--ease)}
+.btn:hover{transform:translateY(-1px)}
+.btn--paper{background:var(--paper);color:var(--ink)}
+.btn--paper:hover{background:#fff}
+.btn--ink{background:var(--ink);color:var(--paper)}
+.btn--ink:hover{background:var(--ox)}
+.btn--ox{background:var(--ox);color:var(--paper)}
+.btn--ox:hover{background:var(--ox-deep)}
+
+/* top bar */
+.bar{position:fixed;inset:0 0 auto;z-index:50;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px var(--g);color:var(--paper);transition:background .35s,color .35s,box-shadow .35s}
+.bar__name{font:800 22px/1 var(--sign);letter-spacing:.06em;text-transform:uppercase;text-decoration:none}
+.bar.is-solid{background:rgba(242,240,240,.92);color:var(--ink);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);box-shadow:0 1px 0 var(--rule)}
+.bar.is-solid .btn--paper{background:var(--ox);color:var(--paper)}
+.bar.is-dark{background:rgba(20,19,18,.85);color:var(--paper);box-shadow:none}
+.bar.is-dark .btn--paper{background:var(--paper);color:var(--ink)}
+
+/* photo fallbacks */
+.ph{position:relative;overflow:hidden;background:var(--fb,#3a3431)}
+.ph img,.ph video{width:100%;height:100%;object-fit:cover}
+.ph.is-missing img{opacity:0}
+.ph.is-missing::after{content:attr(data-file);position:absolute;left:12px;bottom:10px;font:500 11px/1.3 ui-monospace,Menlo,monospace;color:rgba(255,255,255,.7);letter-spacing:.02em}
+
+/* SCENE 1: the wall */
+.hero{position:relative;height:100svh;min-height:560px;overflow:hidden;background:#2b2724;color:var(--paper)}
+.hero__media{position:absolute;inset:0;--fb:radial-gradient(60% 80% at 22% 45%,#cfc7bd 0 18%,#7d7168 40%,#3d3430 70%),linear-gradient(90deg,#3d3430,#5a4a42 60%,#2b2421)}
+.hero__media img{position:absolute;inset:-4% 0 0;height:108%;object-position:22% 40%;transform:scale(1.12);animation:kb 2.6s var(--ease) forwards;will-change:transform}
+@keyframes kb{to{transform:scale(1)}}
+.hero__media::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(100deg,transparent 40%,rgba(20,15,13,.55) 85%),linear-gradient(to top,rgba(20,15,13,.55),transparent 45%)}
+.hero__band{position:absolute;left:0;right:0;bottom:0;height:clamp(44px,9.5vh,96px);background:var(--ox);z-index:2;transform:scaleX(0);transform-origin:left;animation:band 1s .5s var(--ease) forwards}
+@keyframes band{to{transform:scaleX(1)}}
+.hero__copy{position:absolute;right:var(--g);bottom:clamp(14px,2.4vh,26px);z-index:3;text-align:right;will-change:transform,opacity}
+.hero__meta{font:400 clamp(15px,1.3vw,19px)/1.55 var(--serif);margin-bottom:clamp(12px,2vh,22px);opacity:0;animation:fade .9s 1.25s var(--ease) forwards;text-shadow:0 1px 12px rgba(0,0,0,.5)}
+.hero__sign{font:800 clamp(78px,14.5vw,232px)/.8 var(--sign);text-transform:uppercase;letter-spacing:-.005em}
+.hero__sign span{display:block;overflow:hidden;padding-top:.04em}
+.hero__sign i{display:block;font-style:normal;transform:translateY(102%);animation:rise 1s var(--ease) forwards}
+.hero__sign span:nth-child(1) i{animation-delay:.7s}
+.hero__sign span:nth-child(2) i{animation-delay:.84s}
+@keyframes rise{to{transform:none}}
+@keyframes fade{to{opacity:1}}
+.cue{position:absolute;left:var(--g);bottom:calc(clamp(44px,9.5vh,96px) + 20px);z-index:3;font:700 12px/1 var(--sign);letter-spacing:.2em;text-transform:uppercase;display:flex;align-items:center;gap:10px;opacity:0;animation:fade .8s 1.8s forwards}
+.cue i{width:46px;height:1.5px;background:currentColor;transform-origin:left;animation:cue 2s 2s infinite var(--ease)}
+@keyframes cue{0%{transform:scaleX(0)}60%{transform:scaleX(1)}100%{transform:scaleX(1);opacity:0}}
+@media (max-width:700px){
+  .hero__media img{object-position:18% 40%}
+  .hero__media::before{background:linear-gradient(to top,rgba(20,15,13,.8),transparent 60%)}
+  .hero__copy{left:var(--g)}
+  .hero__sign{font-size:25.5vw}
+  .cue{display:none}
+}
+
+/* shared reveals */
+.rv{opacity:0;transform:translateY(28px);transition:opacity 1s var(--ease),transform 1s var(--ease)}
+.rv.in{opacity:1;transform:none}
+[data-split] .w{display:inline-block;opacity:.12;transform:translateY(.25em);transition:opacity .7s var(--ease),transform .7s var(--ease)}
+[data-split].in .w{opacity:1;transform:none}
+
+/* SCENE 2: both sides */
+.both{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1fr);gap:clamp(32px,7vw,120px);align-items:center;padding:clamp(96px,14vw,200px) var(--g);background:var(--stone);max-width:100%}
+.both__mask{aspect-ratio:3/4;max-width:520px;width:100%;justify-self:end;border-radius:2px;box-shadow:0 40px 80px -40px rgba(0,0,0,.6);--fb:linear-gradient(100deg,#2f5f9c 0 42%,#ece6dc 42% 52%,#b8322b 52%);transform:rotate(-3deg) translateY(40px);opacity:0;transition:transform 1.3s var(--ease),opacity 1s var(--ease)}
+.both__mask.in{transform:rotate(-1.5deg);opacity:1}
+.both__text h2{font:400 clamp(36px,4.8vw,68px)/1.06 var(--serif);letter-spacing:-.02em;max-width:15ch}
+.both__text p{margin-top:28px;font-size:clamp(18px,1.5vw,21px);color:#3b3632;max-width:40ch}
+.kicker{display:block;font:700 13px/1 var(--sign);letter-spacing:.22em;text-transform:uppercase;color:var(--ox);margin-bottom:22px}
+@media (max-width:760px){.both{grid-template-columns:1fr}.both__mask{justify-self:start;max-width:380px}}
+
+/* SCENE 3: the method */
+.method{position:relative;height:460vh;background:var(--ink);color:var(--paper)}
+.method__stage{position:sticky;top:0;height:100svh;overflow:hidden;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);align-items:center;gap:clamp(24px,5vw,80px);padding:90px var(--g) 40px}
+.method__window{position:absolute;right:0;top:0;bottom:0;width:42%;z-index:0;--fb:linear-gradient(#8ea0ad,#c9a85a 58%,#7a5a2c);clip-path:inset(22% 18% 22% 30%);will-change:clip-path}
+.method__window::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,var(--ink),rgba(20,19,18,.25) 40%,rgba(20,19,18,.1))}
+.method__list{position:relative;z-index:2}
+.method__label{font:800 clamp(14px,1.1vw,16px)/1 var(--sign);letter-spacing:.22em;text-transform:uppercase;color:var(--ox-lit);margin-bottom:28px}
+.method__lines{counter-reset:m;display:grid;gap:14px}
+.method__lines li{counter-increment:m;display:grid;grid-template-columns:34px 1fr;gap:10px;font-size:clamp(16px,1.25vw,19px);line-height:1.45;color:rgba(242,240,240,.38);transition:color .4s}
+.method__lines li::before{content:counter(m,decimal-leading-zero);font:700 14px/1.9 var(--sign);letter-spacing:.08em}
+.method__lines li.on{color:var(--paper)}
+.method__lines li.on::before{color:var(--ox-lit)}
+.method__end{margin-top:32px;font:800 clamp(30px,3vw,46px)/1 var(--sign);text-transform:uppercase;letter-spacing:.01em;opacity:0;transform:translateY(16px);transition:.7s var(--ease)}
+.method__note{margin-top:14px;font-size:15px;color:rgba(242,240,240,.6);max-width:38ch;opacity:0;transition:opacity .7s .15s}
+.method.done .method__end{opacity:1;transform:none}.method.done .method__note{opacity:1}
+.method__big{position:relative;z-index:2;height:min(60vh,520px)}
+.method__big p{position:absolute;inset:0;display:flex;align-items:center;font:400 clamp(36px,4.9vw,80px)/1.05 var(--serif);letter-spacing:-.025em;opacity:0;transform:translateY(40px);transition:opacity .6s var(--ease),transform .8s var(--ease)}
+.method__big p.on{opacity:1;transform:none}
+.method__big p.past{opacity:0;transform:translateY(-40px)}
+.method__big em{color:var(--ox-lit)}
+.method__prog{position:absolute;left:var(--g);right:var(--g);bottom:24px;height:2px;background:rgba(242,240,240,.12);z-index:2}
+.method__prog i{display:block;height:100%;width:0;background:var(--ox-lit)}
+@media (max-width:860px){
+  .method{height:360vh}
+  .method__stage{grid-template-columns:1fr;align-content:center}
+  .method__big{display:none}
+  .method__window{width:100%;opacity:.28}
+  .method__lines li{font-size:19px}
+}
+
+/* SCENE 4: the charges */
+.charges{padding:clamp(96px,13vw,190px) var(--g) clamp(80px,10vw,140px)}
+.charges__head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:32px;align-items:end;margin-bottom:clamp(40px,6vw,80px)}
+.charges__head h2{font:800 clamp(52px,8vw,128px)/.86 var(--sign);text-transform:uppercase}
+.charges__head p{color:#3b3632;max-width:42ch}
+.charges__list{border-top:2px solid var(--ink)}
+.charges__list li{position:relative;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:24px;align-items:baseline;padding:clamp(18px,2.4vw,30px) 0;border-bottom:1px solid var(--rule);isolation:isolate;opacity:0;transform:translateY(24px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
+.charges__list li.in{opacity:1;transform:none}
+.charges__list li::before{content:"";position:absolute;inset:0 calc(var(--g)*-1);background:var(--ox);z-index:-1;transform:scaleY(0);transform-origin:bottom;transition:transform .45s var(--ease)}
+.charges__list li:hover::before{transform:scaleY(1)}
+.charges__list li:hover{color:var(--paper)}
+.charges__name{font:700 clamp(30px,4vw,60px)/.95 var(--sign);text-transform:uppercase;letter-spacing:.005em}
+.charges__line{color:var(--muted);transition:color .3s}
+.charges__list li:hover .charges__line{color:rgba(242,240,240,.85)}
+@media (max-width:760px){.charges__head,.charges__list li{grid-template-columns:1fr}.charges__list li{gap:6px}}
+
+/* band */
+.band{position:relative;height:clamp(320px,78vh,860px);overflow:hidden;--fb:linear-gradient(#1d2f72 0 45%,#8a3a24 55%,#3c4a22 70%,#4a433e 82%)}
+.band img{position:absolute;inset:-12% 0;height:124%;will-change:transform}
+
+/* SCENE 5: the lawyer */
+.about{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(32px,7vw,120px);padding:clamp(96px,13vw,190px) var(--g);align-items:start}
+.about__portrait{position:sticky;top:96px;aspect-ratio:3/4;border-radius:2px;--fb:linear-gradient(160deg,#b9483f,#e8dcd2 45%,#2a2421)}
+.about__notes h2{font:800 clamp(48px,6.6vw,104px)/.88 var(--sign);text-transform:uppercase;margin-bottom:clamp(32px,4vw,56px)}
+.about__notes li{position:relative;padding:28px 0 28px 0;border-top:1px solid var(--rule);font-size:clamp(18px,1.45vw,21px);color:#3b3632}
+.about__notes li strong{display:block;font:700 clamp(24px,2.2vw,32px)/1 var(--sign);text-transform:uppercase;letter-spacing:.03em;color:var(--ink);margin-bottom:10px}
+.about__notes li::before{content:"";position:absolute;left:0;top:-1px;height:2px;width:0;background:var(--ox);transition:width 1s var(--ease)}
+.about__notes li.in::before{width:72px}
+.about__with-photo .ph{width:min(320px,80%);aspect-ratio:900/669;margin-top:20px;border:8px solid #fff;box-shadow:0 20px 40px -20px rgba(0,0,0,.45);transform:rotate(2.5deg);--fb:linear-gradient(#6c7378,#a5a8a6 45%,#2d3a2f 60%,#55524a)}
+@media (max-width:860px){.about{grid-template-columns:1fr}.about__portrait{position:relative;top:0;max-width:420px}}
+
+/* flight */
+.flight{position:relative;height:260vh;background:#0f1418}
+.flight__stage{position:sticky;top:0;height:100svh;overflow:hidden}
+.flight__media{position:absolute;inset:0;--fb:linear-gradient(#2b3e66,#7d5a4a 55%,#8e3b2a 70%,#2a2a22)}
+.flight__media::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(10,10,10,.6),transparent 50%)}
+.flight__video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform:scale(1.04)}
+.flight__line{position:absolute;left:var(--g);right:var(--g);bottom:clamp(48px,12vh,120px);z-index:2;color:var(--paper);font:400 clamp(30px,4.4vw,68px)/1.08 var(--serif);letter-spacing:-.02em;max-width:18ch;opacity:0;transform:translateY(30px);transition:opacity 1.1s var(--ease),transform 1.1s var(--ease)}
+.flight.show .flight__line{opacity:1;transform:none}
+
+/* SCENE 6: the door */
+.door{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(32px,6vw,100px);padding:clamp(96px,13vw,190px) var(--g) clamp(72px,9vw,120px);background:var(--stone)}
+.door__text h2{font:400 clamp(38px,5vw,76px)/1.04 var(--serif);letter-spacing:-.025em;max-width:16ch}
+.door__sub{margin-top:24px;font-size:clamp(19px,1.6vw,23px);max-width:38ch;color:#3b3632}
+.door__photo{margin-top:clamp(36px,5vw,64px);aspect-ratio:4/3;max-width:560px;border-radius:2px;--fb:linear-gradient(90deg,#3f6a4c 0 25%,#9c3a2e 25% 50%,#2d4f8a 50% 75%,#c9a43a 75%)}
+.door__faq{margin-top:clamp(36px,5vw,56px);border-top:2px solid var(--ink);max-width:620px}
+.door__faq dt{font:700 clamp(22px,1.9vw,27px)/1.15 var(--sign);text-transform:uppercase;letter-spacing:.02em;padding-top:22px}
+.door__faq dd{color:#3b3632;padding:10px 0 22px;border-bottom:1px solid var(--rule)}
+.door__form{position:sticky;top:96px;align-self:start}
+.form{background:var(--paper);padding:clamp(24px,3vw,40px);border-top:6px solid var(--ox);box-shadow:0 40px 80px -50px rgba(0,0,0,.55)}
+.form__title{font:800 clamp(30px,2.6vw,40px)/1 var(--sign);text-transform:uppercase;margin-bottom:24px}
+.form label{display:block;font:700 14px/1 var(--sign);letter-spacing:.14em;text-transform:uppercase;margin:18px 0 8px}
+.form label small{font:400 13px var(--serif);letter-spacing:0;text-transform:none;color:var(--muted)}
+.form input{width:100%;font:400 17px/1.4 var(--serif);padding:13px 14px;border:1.5px solid var(--rule);border-radius:2px;background:#fff;color:var(--ink);transition:border-color .2s}
+.form input:focus{outline:none;border-color:var(--ink)}
+.form input[aria-invalid="true"]{border-color:var(--ox)}
+.form__err{color:var(--ox);font-size:15px;margin-top:6px}
+.form .btn{width:100%;margin-top:26px;padding:18px}
+.form__status{margin-top:14px;font-weight:600;min-height:1.4em}
+.form__note{font-size:14px;color:var(--muted);margin-top:10px}
+.door__address{margin-top:28px;font-style:normal;font:700 20px/1.25 var(--sign);text-transform:uppercase;letter-spacing:.06em}
+.door__address a{text-decoration:none;border-bottom:2px solid var(--ox)}
+@media (max-width:860px){.door{grid-template-columns:1fr}.door__form{position:relative;top:0}}
+
+/* footer */
+.foot{background:var(--ink);color:rgba(242,240,240,.65);padding:clamp(56px,7vw,96px) var(--g) calc(32px + env(safe-area-inset-bottom));font-size:15px;display:grid;gap:10px}
+.foot__name{font:800 clamp(56px,11vw,180px)/.82 var(--sign);text-transform:uppercase;color:var(--paper);margin-bottom:28px;letter-spacing:-.005em}
+.foot__name span{color:var(--ox-lit)}
+
+/* reduced motion */
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.001ms!important;animation-delay:0s!important;transition-duration:.001ms!important}
+  .rv,[data-split] .w,.charges__list li,.both__mask{opacity:1;transform:none}
+  .method,.flight{height:auto}
+  .method__stage,.flight__stage{position:relative;height:auto;min-height:100svh}
+  .method__big{display:none}.method__lines li{color:var(--paper)}
+  .method__end,.method__note,.flight__line{opacity:1;transform:none}
+  .method__window{clip-path:none}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="bar" id="bar">
+  <a class="bar__name" href="#top">Davis Law Group</a>
+  <a class="btn btn--paper" href="#book">Book a consultation</a>
+</header>
+
+<main id="main">
+  <!-- Scene 1: the wall -->
+  <section class="hero" id="top" aria-labelledby="hero-h">
+    <div class="hero__media ph" data-file="assets/img/lawyer-2000.jpg">
+      <img src="assets/img/lawyer-2000.jpg" srcset="assets/img/lawyer-1400.jpg 1400w, assets/img/lawyer-2000.jpg 2000w" sizes="(max-width: 700px) 180vw, 100vw" width="2000" height="1126" alt="D. Casey Davis in a pale felt hat before a brick wall painted with the word DRUGS" fetchpriority="high">
+    </div>
+    <div class="hero__band" aria-hidden="true"></div>
+    <div class="hero__copy" id="hero-copy">
+      <p class="hero__meta">Oklahoma City. D. Casey Davis.<br>The first consultation is free.</p>
+      <h1 class="hero__sign" id="hero-h"><span><i>Criminal</i></span><span><i>defense</i></span></h1>
+    </div>
+    <div class="cue" aria-hidden="true">Scroll <i></i></div>
+  </section>
+
+  <!-- Scene 2: both sides -->
+  <section class="both" id="both" aria-labelledby="both-h">
+    <figure class="both__mask ph" data-file="assets/img/mask.jpg"><img src="assets/img/mask.jpg" width="900" height="1200" loading="lazy" alt="A mask painted half blue and half red, split by a white zigzag"></figure>
+    <div class="both__text">
+      <span class="kicker">Both sides</span>
+      <h2 id="both-h" data-split>I learned the case against you from the inside.</h2>
+      <p class="rv">Assistant Attorney General and counsel to the Oklahoma State Bureau of Investigation until 2006. Now I defend the people who don't get bonded out by 6&nbsp;a.m.</p>
+    </div>
+  </section>
+
+  <!-- Scene 3: the method (peak) -->
+  <section class="method" id="method" aria-labelledby="method-h">
+    <div class="method__stage">
+      <figure class="method__window ph" id="window" data-file="assets/img/window-field.jpg"><img src="assets/img/window-field.jpg" width="1100" height="1661" loading="lazy" alt="A window in a ruined stone wall framing a golden stubble field and a mountain"></figure>
+      <div class="method__list">
+        <h2 class="method__label" id="method-h">How I try a case</h2>
+        <ol class="method__lines" id="mlines">
+          <li><span class="method__line">To hear your story, I <em>listen.</em></span></li>
+          <li><span class="method__line">To understand you, I put myself <em>in your place.</em></span></li>
+          <li><span class="method__line">To earn your trust, I show you <em>mine first.</em></span></li>
+          <li><span class="method__line">To tell it, I find <em>the villain and the betrayal.</em></span></li>
+        </ol>
+        <p class="method__end">Then I show it to the jury.</p>
+        <p class="method__note">The storytelling method of the Trial Lawyers College, where I trained in 2017.</p>
+      </div>
+      <div class="method__big" id="mbig" aria-hidden="true">
+        <p><span>To hear your story, I <em>listen.</em></span></p>
+        <p><span>To understand you, I put myself <em>in your place.</em></span></p>
+        <p><span>To earn your trust, I show you <em>mine first.</em></span></p>
+        <p><span>To tell it, I find <em>the villain and the betrayal.</em></span></p>
+      </div>
+      <div class="method__prog" aria-hidden="true"><i id="mprog"></i></div>
+    </div>
+  </section>
+
+  <!-- Scene 4: the charges -->
+  <section class="charges" id="cases" aria-labelledby="cases-h">
+    <div class="charges__head">
+      <h2 id="cases-h" class="rv">Criminal cases I take</h2>
+      <p class="rv">Misdemeanors and felonies, from a first arrest to a trial date, for anyone charged, including members of the Comanche, Apache and Kiowa nations.</p>
+    </div>
+    <ul class="charges__list">
+      <li><span class="charges__name">DUI and driving</span><span class="charges__line">Breath and blood tests, license suspension, driving while suspended.</span></li>
+      <li><span class="charges__name">Drug charges</span><span class="charges__line">Possession, possession with intent to sell, paraphernalia.</span></li>
+      <li><span class="charges__name">Assault and domestic violence</span><span class="charges__line">The charge and the protective order that often comes with it.</span></li>
+      <li><span class="charges__name">Theft and fraud</span><span class="charges__line">Shoplifting, burglary, check and card fraud.</span></li>
+      <li><span class="charges__name">Probation violations</span><span class="charges__line">Hearings after a missed test, payment or appointment.</span></li>
+    </ul>
+  </section>
+  <figure class="band ph" id="band" data-file="assets/img/bison.jpg"><img src="assets/img/bison.jpg" width="1920" height="1278" loading="lazy" alt="A bison grazing beside a road under the red granite of the Wichita Mountains at dusk"></figure>
+
+  <!-- Scene 5: the lawyer -->
+  <section class="about" id="about" aria-labelledby="about-h">
+    <figure class="about__portrait ph rv" data-file="assets/img/portrait.jpg"><img src="assets/img/portrait.jpg" width="1100" height="1467" loading="lazy" alt="D. Casey Davis smiling, in round dark glasses and a red and white patterned shirt"></figure>
+    <div class="about__notes">
+      <h2 id="about-h" class="rv">About D. Casey Davis</h2>
+      <ul>
+        <li class="rv"><strong>Lawton.</strong> I grew up the son of a legislator, under the Wichita Mountains, and learned early how power works and whom it protects.</li>
+        <li class="rv"><strong>The prosecution side.</strong> Assistant Attorney General under Drew Edmondson and counsel to the OSBI, until 2006.</li>
+        <li class="rv about__with-photo"><strong>Caddo County.</strong> As a public defender I picked juries by talking deer season, bass and crappie with them.<span class="ph" data-file="assets/img/bass.jpg" style="display:block"><img src="assets/img/bass.jpg" width="900" height="669" loading="lazy" alt="A younger Casey Davis on a boat holding a large bass"></span></li>
+        <li class="rv"><strong>The hard way.</strong> I am in recovery from addiction. I know the system from both sides, and what a second chance is worth.</li>
+      </ul>
+    </div>
+  </section>
+  <section class="flight" id="wichitas" aria-label="The Wichita Mountains">
+    <div class="flight__stage">
+      <div class="flight__media ph" data-file="assets/vid/wichitas-flight.mp4">
+        <video class="flight__video" muted playsinline preload="none" poster="assets/vid/wichitas-flight-poster.jpg" data-src="assets/vid/wichitas-flight.mp4" data-src-mobile="assets/vid/wichitas-flight-mobile.mp4" aria-hidden="true"></video>
+      </div>
+      <p class="flight__line">The Wichita Mountains asked nothing of me. I grew up under them.</p>
+    </div>
+  </section>
+
+  <!-- Scene 6: the door -->
+  <section class="door" id="book" aria-labelledby="book-h">
+    <div class="door__text">
+      <span class="kicker">A defense</span>
+      <h2 id="book-h" data-split>No one group holds a monopoly on what is right and good.</h2>
+      <p class="door__sub rv">Every person charged with a crime is worthy of dignity, and a defense. The first consultation is free.</p>
+      <figure class="door__photo ph rv" data-file="assets/img/painted-doors.jpg"><img src="assets/img/painted-doors.jpg" width="1024" height="768" loading="lazy" alt="Two old painted wooden doors, one green and red, one blue and yellow, leaning against a mud wall"></figure>
+      <dl class="door__faq rv">
+        <dt>Should I answer police questions first?</dt>
+        <dd>No. Say out loud that you want a lawyer, then stop talking. Being polite is fine; explaining yourself can be used against you.</dd>
+        <dt>Is what I tell you private?</dt>
+        <dd>Yes. What you tell a lawyer while asking for legal advice is confidential, even if you do not hire me.</dd>
+      </dl>
+    </div>
+    <div class="door__form">
+      <form class="form rv" id="form" action="mailto:consult@dcdokc.example" method="post" enctype="text/plain" novalidate>
+        <p class="form__title">Book a consultation</p>
+        <label for="f-name">Name</label>
+        <input id="f-name" name="name" type="text" autocomplete="name" required aria-describedby="e-name">
+        <p class="form__err" id="e-name" hidden>Write the name I should use for you.</p>
+        <label for="f-email">Email</label>
+        <input id="f-email" name="email" type="email" autocomplete="email" inputmode="email" required aria-describedby="e-email">
+        <p class="form__err" id="e-email" hidden>Write an email address with an @, like name@example.com.</p>
+        <label for="f-charge">Charge</label>
+        <input id="f-charge" name="charge" type="text" autocomplete="off" required aria-describedby="e-charge">
+        <p class="form__err" id="e-charge" hidden>Write the charge as it reads on your papers, or what you were told.</p>
+        <label for="f-date">Next court date <small>(optional)</small></label>
+        <input id="f-date" name="court-date" type="text" autocomplete="off">
+        <button class="btn btn--ink" type="submit">Book a consultation</button>
+        <p class="form__status" id="status" role="status"></p>
+        <p class="form__note">Sending this form does not make me your lawyer. Keep the details of what happened for the meeting.</p>
+      </form>
+      <address class="door__address"><a href="https://www.openstreetmap.org/search?query=512%20NW%2012th%20St%2C%20Oklahoma%20City%2C%20OK%2073103">512 NW 12th St<br>Oklahoma City, OK 73103</a></address>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <p class="foot__name">Davis Law Group<span>.</span></p>
+  <p>&copy; 2026 Davis Law Group. Attorney advertising. This page is general information, not legal advice.</p>
+  <p>Photographs and film by D. Casey Davis.</p>
+</footer>
+
+<script>
+(() => {
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
+  const clamp = (v, a = 0, b = 1) => Math.min(b, Math.max(a, v));
+
+  // missing photo fallback (toned panel)
+  $$('.ph img').forEach(img => {
+    const fail = () => img.closest('.ph').classList.add('is-missing');
+    if (img.complete && img.naturalWidth === 0) fail(); else img.addEventListener('error', fail);
+  });
+
+  // split headings into words
+  $$('[data-split]').forEach(h => {
+    const words = h.textContent.trim().split(/\s+/);
+    h.setAttribute('aria-label', h.textContent.trim());
+    h.innerHTML = words.map((w, i) => `<span class="w" aria-hidden="true" style="transition-delay:${i * 55}ms">${w}</span>`).join(' ');
+  });
+
+  // reveal on scroll
+  const io = new IntersectionObserver(es => es.forEach(e => {
+    if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+  }), { threshold: .2, rootMargin: '0px 0px -8% 0px' });
+  $$('.rv, [data-split], .both__mask').forEach(el => io.observe(el));
+  $$('.charges__list li').forEach((el, i) => { el.style.transitionDelay = (i * 80) + 'ms'; io.observe(el); });
+
+  // video: load near view, scrub with scroll
+  const flight = $('#wichitas'), video = flight.querySelector('video'), fmedia = flight.querySelector('.flight__media');
+  let vReady = false;
+  new IntersectionObserver((es, o) => es.forEach(e => {
+    if (!e.isIntersecting) return; o.disconnect();
+    video.src = innerWidth < 700 ? video.dataset.srcMobile : video.dataset.src;
+    video.preload = 'auto';
+    video.addEventListener('loadedmetadata', () => { vReady = true; });
+    video.addEventListener('error', () => { fmedia.classList.add('is-missing'); });
+    video.load();
+  }), { rootMargin: '600px 0px' }).observe(flight);
+  // poster missing too? keep toned panel visible underneath (video is transparent until a frame/poster paints)
+
+  // scroll-driven scenes
+  const bar = $('#bar'), hero = $('#top'), heroImg = $('.hero__media img'), heroCopy = $('#hero-copy');
+  const method = $('#method'), mlines = $$('#mlines li'), mbig = $$('#mbig p'), mprog = $('#mprog'), win = $('#window');
+  const band = $('#band img'), dark = [$('#method'), $('#wichitas')];
+  let ticking = false, lastStep = -1;
+
+  const progress = el => { const r = el.getBoundingClientRect(); return clamp(-r.top / (el.offsetHeight - innerHeight)); };
+
+  function frame() {
+    ticking = false;
+    const y = scrollY, vh = innerHeight;
+    // bar state
+    const overDark = dark.some(s => { const r = s.getBoundingClientRect(); return r.top <= 40 && r.bottom > 40; });
+    bar.classList.toggle('is-solid', y > vh * .85 && !overDark);
+    bar.classList.toggle('is-dark', overDark);
+
+    if (reduce) { mlines.forEach(l => l.classList.add('on')); method.classList.add('done'); flight.classList.add('show'); return; }
+
+    // hero parallax
+    if (y < vh * 1.2) {
+      const p = y / vh;
+      heroImg.style.transform = `translateY(${p * 18}%) scale(1)`;
+      heroCopy.style.transform = `translateY(${p * -60}px)`;
+      heroCopy.style.opacity = 1 - clamp(p * 1.4);
+    }
+
+    // method: four steps + ending
+    const mp = progress(method);
+    const step = Math.min(3, Math.floor(mp * 4.6));
+    if (step !== lastStep) {
+      mlines.forEach((l, i) => l.classList.toggle('on', i <= step && mp > 0));
+      mbig.forEach((p, i) => { p.classList.toggle('on', i === step); p.classList.toggle('past', i < step); });
+      lastStep = step;
+    }
+    method.classList.toggle('done', mp > .86);
+    mprog.style.width = (mp * 100) + '%';
+    const o = 1 - mp; // window opens as you go
+    win.style.clipPath = `inset(${22 * o}% ${18 * o}% ${22 * o}% ${30 * o}%)`;
+
+    // bison band parallax
+    const br = band.parentElement.getBoundingClientRect();
+    if (br.bottom > 0 && br.top < vh) band.style.transform = `translateY(${((br.top + br.height / 2) - vh / 2) * -0.12}px)`;
+
+    // flight: scrub video, show line
+    const fp = progress(flight);
+    flight.classList.toggle('show', fp > .35);
+    if (vReady && video.duration) { const t = fp * (video.duration - .05); if (Math.abs(video.currentTime - t) > .03) video.currentTime = t; }
+  }
+  addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(frame); } }, { passive: true });
+  addEventListener('resize', frame);
+  frame();
+
+  // form validation
+  const form = $('#form'), status = $('#status');
+  const check = i => {
+    const err = document.getElementById(i.getAttribute('aria-describedby'));
+    const ok = i.type === 'email' ? /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(i.value.trim()) : i.value.trim() !== '';
+    i.setAttribute('aria-invalid', !ok); if (err) err.hidden = ok; return ok;
+  };
+  const req = $$('#form input[required]');
+  req.forEach(i => i.addEventListener('blur', () => { if (i.value) check(i); }));
+  form.addEventListener('submit', e => {
+    const bad = req.filter(i => !check(i));
+    if (bad.length) { e.preventDefault(); bad[0].focus(); status.textContent = ''; return; }
+    status.textContent = 'Your consultation booking is in. I write back to set a time.';
+  });
+})();
+</script>
+</body>
+</html>
